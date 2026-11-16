@@ -3,24 +3,29 @@
 
 
 
+:root{--paper:#f4f1ea;--ink:#1a1a1a;--muted:#6b7280;--grid:#d1d5db;}
+@media (prefers-color-scheme: dark){:root{--paper:#0d1117;--ink:#e6edf3;--muted:#8b949e;--grid:#30363d;}}
+
+
 @keyframes riseIn { from { opacity:0; transform:translateY(12px);} to { opacity:1; transform:translateY(0);} }
 @keyframes growUp { from { transform:scaleY(0);} to { transform:scaleY(1);} }
 @keyframes popIn { 0%{opacity:0;transform:scale(.6)} 70%{transform:scale(1.08)} 100%{opacity:1;transform:scale(1)} }
 @keyframes pulse { 0%{r:4;opacity:.6} 100%{r:14;opacity:0} }
 @keyframes shine { 0%{transform:translateX(-120%)} 100%{transform:translateX(120%)} }
 @keyframes printRow { from{opacity:0} to{opacity:1} }
-.reduce-motion * { animation:none !important; }
 
-text{font-family:'Geist',system-ui,sans-serif;fill:#1a1a1a;}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;}}
+text{font-family:'Geist',system-ui,sans-serif;fill:var(--ink);}
 .serif{font-family:'Instrument Serif',Georgia,serif;}
-.muted{fill:#6b7280;}
+.muted{fill:var(--muted);}
+rect.bg{fill:var(--paper);}
 </style>
-<rect width="880" height="120" fill="#f4f1ea" rx="12"/>
+<rect class="bg" width="880" height="120" rx="12"/>
 
-  <text x="24" y="36" class="serif" font-size="22">Crypto</text>
-  <text x="24" y="64" font-size="13" class="muted">Cryptography utilities and experiments</text>
-  <circle cx="24" cy="100" r="6" fill="#2563eb"/>
-  <text x="38" y="105" font-size="12" class="muted">Python</text>
-  <text x="760" y="105" font-size="12" class="muted">★ 0</text>
+  <text x="24" y="36" class="serif" font-size="20">Crypto</text>
+  <text x="24" y="62" font-size="13" class="muted">Cryptography utilities and experiments</text>
+  <circle cx="24" cy="96" r="6" fill="#2563eb"/>
+  <text x="38" y="101" font-size="12" class="muted">Python</text>
+  <text x="760" y="101" font-size="12" class="muted">★ 0</text>
 
 </svg>

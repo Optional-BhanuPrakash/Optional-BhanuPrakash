@@ -12,7 +12,8 @@
 
 ## Featured Repositories
 
-<a href="https://github.com/Optional-BhanuPrakash/ResumeJobMatch_Crew"><img src="./cards/repo-resumejobmatch.svg" width="100%" alt="ResumeJobMatch_Crew" /></a>
+<a href="https://github.com/Optional-BhanuPrakash/ResumeJobMatch_Crew"><img src="./cards/repo-resumejobmatch-crew.svg" width="100%" alt="ResumeJobMatch_Crew" /></a>
+<a href="https://github.com/Optional-BhanuPrakash/AI-Code-Debugger-Crew"><img src="./cards/repo-ai-code-debugger-crew.svg" width="100%" alt="AI-Code-Debugger-Crew" /></a>
 <a href="https://github.com/Optional-BhanuPrakash/Crypto"><img src="./cards/repo-crypto.svg" width="100%" alt="Crypto" /></a>
 <a href="https://github.com/Optional-BhanuPrakash/Audio"><img src="./cards/repo-audio.svg" width="100%" alt="Audio" /></a>
 
