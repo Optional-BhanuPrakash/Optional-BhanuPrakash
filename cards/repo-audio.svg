@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="Audio">
+<style>
+
+
+
+@keyframes riseIn { from { opacity:0; transform:translateY(12px);} to { opacity:1; transform:translateY(0);} }
+@keyframes growUp { from { transform:scaleY(0);} to { transform:scaleY(1);} }
+@keyframes popIn { 0%{opacity:0;transform:scale(.6)} 70%{transform:scale(1.08)} 100%{opacity:1;transform:scale(1)} }
+@keyframes pulse { 0%{r:4;opacity:.6} 100%{r:14;opacity:0} }
+@keyframes shine { 0%{transform:translateX(-120%)} 100%{transform:translateX(120%)} }
+@keyframes printRow { from{opacity:0} to{opacity:1} }
+.reduce-motion * { animation:none !important; }
+
+text{font-family:'Geist',system-ui,sans-serif;fill:#1a1a1a;}
+.serif{font-family:'Instrument Serif',Georgia,serif;}
+.muted{fill:#6b7280;}
+</style>
+<rect width="880" height="120" fill="#f4f1ea" rx="12"/>
+
+  <text x="24" y="36" class="serif" font-size="22">Audio</text>
+  <text x="24" y="64" font-size="13" class="muted">Audio processing tools</text>
+  <circle cx="24" cy="100" r="6" fill="#2563eb"/>
+  <text x="38" y="105" font-size="12" class="muted">Python</text>
+  <text x="760" y="105" font-size="12" class="muted">★ 0</text>
+
+</svg>
